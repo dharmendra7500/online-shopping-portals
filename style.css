@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navsection{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#carding{
+    background-color: rgba(170, 188, 192, 0.701);
+    gap: 50px;
+    padding: 10px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#cards{
+    background-color: rgb(43, 85, 122);
+    padding: 20px;
+    color: white;
+    position: relative;
+    bottom: 250px;
+}
+@media only screen and (max-width:900px) {
+    #cards{
+       
+        padding: 20px;
+        position: relative;
+        bottom: 80px;
+        height: auto;
+        width: 600px;
+        
+       
+    }
+    #carding{
+        height: auto;
+    }
+    .card img{
+
+        width: auto;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width:500px){
+    #cards{
+       margin-left: 10px;
+       margin-right: 10px;
+        padding: 40px;
+        position: relative;
+        bottom: 0;
+        height: auto;
+    }
+    #carding{
+        height: auto;
+    }
+    .card img{
+
+        width: auto; 
+    }
+}
+/* second slider */
+.boxes{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(165, 200, 231);
+    
+}
+.hadding{
+    padding-left: 40px;
+}
+
+.box{
+   padding: 10px;
+   margin: 10px;
+   background-color: rgb(242, 248, 246);
+
+}
+.hadd{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ @media only screen and (max-width:900px){
+     .box{
+    width: auto;
+    height: auto;
+  } 
+  .box img{
+    width: auto;
+    height: auto;
+  }
+ }
+ @media only screen and (max-width:500px){
+
+   
+    .hadd{
+        display: flex;
+        
+    }
+    
+} 
+@media only screen and (max-width:500px){
+    .hadd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        width: 270px;
+        height: auto;
+    }
+    .box img{
+        width: auto;
+        height: auto;
+    }
+    
+    .fun img{
+        width: auto;
+        height: 300px;
+    }
+}
+.sub-footer{
+    background-color: rgb(25, 25, 52);
+    text-align: center;
+    height: 40px;
+    padding-top: 7px;
+}
+.sub-footer a{
+  
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+.footer{
+    background-color: rgb(4, 4, 65);
+    height: 200px;
+}
+.footer-hadding{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.div a{
+    text-decoration: none;
+    color: white;
+}
+.div h3{
+    color: white;
+}
+@media only screen and (max-width:500px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+}
